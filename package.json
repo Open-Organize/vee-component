@@ -1,0 +1,24 @@
+{
+  "name": "vee-component",
+  "version": "1.0.1-dev",
+  "description": "为vue2+开发的一些常用组件库！",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Open-Organize/vee-component.git"
+  },
+  "keywords": [
+    "vue",
+    "component",
+    "element"
+  ],
+  "author": "Open-Organize",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Open-Organize/vee-component/issues"
+  },
+  "homepage": "https://github.com/Open-Organize/vee-component#readme"
+}
