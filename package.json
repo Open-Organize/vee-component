@@ -1,6 +1,6 @@
 {
   "name": "vee-component",
-  "version": "1.0.1-dev",
+  "version": "1.0.1-alpha.0",
   "description": "为vue2+开发的一些常用组件库！",
   "main": "./packages/index.js",
   "scripts": {
