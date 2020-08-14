@@ -8,7 +8,18 @@
   <a href="https://github.com/Open-Organize/vee-component/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/vee-component.svg" alt="License"></a>
 </p>
 
-- 项目研发中，敬请期待！
+如何测试
+-----------------------------
+
+首先安装并启动用例项目:
+
+```bash
+npm start
+```
+
+然后在浏览器中打开下列地址：
+
+http://localhost:20000/index.html
 
 ## License
 
