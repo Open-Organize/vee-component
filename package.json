@@ -5,7 +5,8 @@
   "main": "./packages/index.js",
   "scripts": {
     "start": "npm install && npm run dev",
-    "dev": "node_modules/.bin/webpack-dev-server --config webpack.dev.js"
+    "dev": "webpack-dev-server --config webpack.dev.js",
+    "build": "cuf -d ./docs/dist && cuf -d ./examples/dist && webpack --config webpack.prod.js"
   },
   "repository": {
     "type": "git",
@@ -26,22 +27,25 @@
     "xhtml.js": "^1.1.2"
   },
   "devDependencies": {
-    "node-sass": "^4.11.0",
-    "sass-loader": "^7.1.0",
-    "babel-loader": "^7.0.0",
+    "@yelloxing/normalize.css": "^0.2.2",
     "babel-core": "^6.26.3",
+    "babel-loader": "^7.0.0",
     "babel-preset-env": "^1.7.0",
     "css-loader": "^2.1.1",
+    "cuf": "^1.2.0",
     "file-loader": "^4.0.0",
+    "image2d": "^1.8.2",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
     "url-loader": "^2.0.0",
     "vue": "^2.6.11",
-    "vue-router": "^3.4.2",
-    "image2d": "^1.8.1",
     "vue-loader": "^15.9.3",
+    "vue-router": "^3.4.2",
     "vue-style-loader": "^4.1.2",
     "vue-template-compiler": "^2.6.11",
     "webpack": "^4.29.0",
     "webpack-cli": "^3.2.1",
-    "webpack-dev-server": "^3.1.14"
+    "webpack-dev-server": "^3.1.14",
+    "webpack-merge": "^4.2.2"
   }
 }
