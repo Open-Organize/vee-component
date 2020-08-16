@@ -28,7 +28,7 @@ http://127.0.0.1:20000/docs/index.html
 
 本项目基本的DOM操作基于[xhtml.js](https://github.com/yelloxing/xhtml.js)，开发中你需要查阅[xhtml.js接口文档](http://yelloxing.gitee.io/xhtml.js/)，如果在使用过程中遇到任何问题请在[Issue](https://github.com/yelloxing/xhtml.js/issues)中提问，包括新增接口等。
 
-> 特别需要注意的是，如果你认为xhtml.js中需要增加的方法可能只会在当前项目中有益，请直接在[此处](https://github.com/Open-Organize/vee-component/blob/master/packages/xhtml/index.js)进行扩展即可！
+> 特别需要注意的是，如果你认为xhtml.js中需要增加的方法可能只会在当前项目中有益，请直接在[此处](https://github.com/Open-Organize/vee-component/blob/master/packages/services/xhtml.js)进行扩展即可！
 
 修改了文档或代码以后，在提交或发布前别忘了进行打包：
 
