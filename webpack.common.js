@@ -5,8 +5,7 @@ module.exports = {
   },
   output: {
     path: __dirname,
-    filename: './[name]/dist/main.js',
-    publicPath:'../'
+    filename: './[name]/dist/main.js'
    
   },
   resolve: {
