@@ -5,7 +5,9 @@ module.exports = {
   },
   output: {
     path: __dirname,
-    filename: './[name]/dist/main.js'
+    filename: './[name]/dist/main.js',
+    publicPath:'../'
+   
   },
   resolve: {
     alias: {
@@ -28,8 +30,8 @@ module.exports = {
       use: [{
         loader: "url-loader",
         options: {
-          name: "./examples/dist/assets/[name].[ext]",
-          context: "./examples/assets",
+           name: "./docs/dist/assets/[name].[ext]",
+          context: "./docs/assets",
           limit: 5000
         }
       }]
